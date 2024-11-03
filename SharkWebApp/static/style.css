@@ -1,0 +1,91 @@
+* {
+    font-family: Roboto, 'sans-serif';
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #090909;
+    background-image: url("background_img.jpg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+}
+
+.web-app {
+    height: 100%;
+}
+
+.user-panel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 495px;
+    padding: 20px;
+}
+.user-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 131px;
+    background-color: #111111;
+    width: 98%;
+    min-height: 230px;
+}
+
+.header-bar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 25px;
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+}
+
+.balance:first-child {
+    font-size: 8vw;
+}
+
+.balance-currency {
+    color: #414141;
+    font-size: 5vw;
+}
+
+.icon-bar {
+    background-image: url("logo.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 127px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.buttons-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons-bar button{
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgb(246, 208, 0);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+
+.for-your-text {
+    color: white;
+}
